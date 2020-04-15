@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 import operator
 def manas(request):
-    return HttpResponse("Manas khatri")
+    return HttpResponse("I am Manas khatri")
 
 def home(request):
     return render(request,'home.html')
